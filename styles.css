@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(32, 37, 24);
+    color:rgb(211, 135, 36);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 180px;
+    left: 23%;
+    background: #fff;
+    height: 55vh;
+    width: 55vw;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.blocks {
+    height: calc(55vh/3);
+    width: calc(55vw/3);
+    border: solid 2px black;
+}
