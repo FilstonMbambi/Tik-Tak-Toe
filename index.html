@@ -23,11 +23,19 @@
 
     <div id="playerChoice">
         <h3>Make your choice</h3>
-        <button>X</button>
-        <button>O</button>
+        <button id="choice">X</button>
+        <button id="choice">O</button>
     </div>
 
-    <button id="restart">Restart</button>
+    <div class="easy-or-hard">
+        <label for="difficulty">Choose difficulty</label>
+        <select name="difficulty" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+
+    <button id="restart" class="invisible">Restart</button>
     <script src="app.js"></script>
 </body>
 </html>

@@ -18,8 +18,8 @@ body {
     position: absolute;
     top: 180px;
     background: #fff;
-    height: min(400px, 55vh);
-    width: min(400px, 55vw);
+    height: min(400px, 50vh);
+    width: min(400px, 70vw);
     display: flex;
     flex-wrap: wrap;
     border-radius: 15px;
@@ -29,10 +29,56 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: min(calc(400px/3), calc(55vh/3));
-    width: min(calc(400px/3), calc(55vw/3));
+    height: min(calc(400px/3), calc(50vh/3));
+    width: min(calc(400px/3), calc(70vw/3));
     border: solid 2px black;
     color: black;
     font-family: sans-serif;
     font-size: 4rem;
+}
+
+#playerChoice {
+    position: absolute;
+    bottom: 20px;
+}
+
+#playerChoice button {
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+}
+
+#playerChoice button:hover {
+    background: yellow;
+}
+
+#restart {
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+}
+
+#restart:hover {
+    background: yellow;
+}
+
+.invisible {
+    z-index: -1000;
+    display: none;
+}
+
+.easy-or-hard {
+    display: flex;
+    flex-direction: column;
+}
+
+.easy-or-hard select {
+    height: 25px;
+    font-size: 16px;
 }
