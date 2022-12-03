@@ -36,14 +36,6 @@ gameplay experience is fairly decent.
 // EVENT BINDINGS
 //==================================
 
-// Bind Esc key to closing the modal dialog
-document.onkeypress = function (evt) {
-    evt = evt || window.event;
-    var modal = document.getElementsByClassName("modal")[0];
-    if (evt.keyCode === 27) {
-        modal.style.display = "none";
-    }
-};
 
 // When the user clicks anywhere outside of the modal dialog, close it
 window.onclick = function (evt) {

@@ -10,16 +10,16 @@
 }
 
 body {
+    position: relative;
     background-color: rgb(92, 118, 78);
     background-image: url("background.jpg");
+    backdrop-filter: blur(2px);
     color: rgb(230, 230, 230);
     text-align: center;
+    top: 10%;
     font-family: "Tillana";
     font-size: 0.7em;
 }
-/* Add blur to background image */
-/* filter: blur(8px);
-  -webkit-filter: blur(8px); */
 
 h1 {
     line-height: 1em;
@@ -54,8 +54,8 @@ table {
 }
 .td_game {
     border: 7px solid rgb(230, 230, 230);
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     padding: 0;
     vertical-align: middle;
     text-align: center;
